@@ -1,15 +1,18 @@
 package base;
 
 import java.lang.reflect.Method;
+import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 import com.aventstack.extentreports.*;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utils.ConfigReader;
 import utils.ExtentManager;
 
 import java.io.File;
@@ -21,6 +24,7 @@ import org.apache.commons.io.FileUtils;
 public class BaseTest {
 
     protected WebDriver driver;
+    public WebDriverWait wait;
     protected static ExtentReports extent;
     protected ExtentTest test;
 
@@ -39,6 +43,25 @@ public class BaseTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
+    
+    
+    public void setup() {
+
+        String browser = ConfigReader.get("browser");
+        String url = ConfigReader.get("url");
+
+        if (browser.equalsIgnoreCase("chrome")) {
+            driver = new ChromeDriver();
+        }
+
+        driver.manage().window().maximize();
+        driver.get(url);
+
+        wait = new WebDriverWait(driver, Duration.ofSeconds(
+            Integer.parseInt(ConfigReader.get("timeout"))
+        ));
+    }
+    
 
     @AfterMethod
     public void tearDown() {

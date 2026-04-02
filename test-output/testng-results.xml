@@ -2,50 +2,50 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-27T17:05:29 IST" name="Default suite" finished-at="2026-03-27T17:05:52 IST" duration-ms="22374">
+  <suite started-at="2026-04-02T19:05:44 IST" name="Default suite" finished-at="2026-04-02T19:07:24 IST" duration-ms="99965">
     <groups>
     </groups>
-    <test started-at="2026-03-27T17:05:29 IST" name="Default test" finished-at="2026-03-27T17:05:52 IST" duration-ms="22374">
-      <class name="Tests.BookingKolToBang">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:Tests.BookingKolToBang@cb0755b]" started-at="2026-03-27T17:05:29 IST" name="setupReport" finished-at="2026-03-27T17:05:29 IST" duration-ms="483" status="PASS">
+    <test started-at="2026-04-02T19:05:44 IST" name="Default test" finished-at="2026-04-02T19:07:24 IST" duration-ms="99965">
+      <class name="Tests.BookingFirstTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:Tests.BookingFirstTest@48075da3]" started-at="2026-04-02T19:05:42 IST" name="setupReport" finished-at="2026-04-02T19:05:44 IST" duration-ms="2231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:Tests.BookingKolToBang@cb0755b]" started-at="2026-03-27T17:05:30 IST" name="setupTest" finished-at="2026-03-27T17:05:32 IST" duration-ms="2990" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:Tests.BookingFirstTest@48075da3]" started-at="2026-04-02T19:05:44 IST" name="setupTest" finished-at="2026-04-02T19:06:07 IST" duration-ms="23042" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Tests.BookingKolToBang.testBookingFlow() throws java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA[public void Tests.BookingFirstTest.firstBookingConfirmation() throws java.lang.InterruptedException,java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testBookingFlow()[pri:0, instance:Tests.BookingKolToBang@cb0755b]" started-at="2026-03-27T17:05:33 IST" name="testBookingFlow" finished-at="2026-03-27T17:05:51 IST" duration-ms="18039" status="PASS">
+        <test-method signature="firstBookingConfirmation()[pri:0, instance:Tests.BookingFirstTest@48075da3]" started-at="2026-04-02T19:06:07 IST" name="firstBookingConfirmation" finished-at="2026-04-02T19:07:03 IST" duration-ms="56051" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBookingFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.BookingKolToBang@cb0755b]" started-at="2026-03-27T17:05:51 IST" name="tearDown" finished-at="2026-03-27T17:05:52 IST" duration-ms="1261" status="PASS">
+        </test-method> <!-- firstBookingConfirmation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.BookingFirstTest@48075da3]" started-at="2026-04-02T19:07:03 IST" name="tearDown" finished-at="2026-04-02T19:07:24 IST" duration-ms="20784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.BookingKolToBang@cb0755b]" started-at="2026-03-27T17:05:52 IST" name="tearDown" finished-at="2026-03-27T17:05:52 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.BookingFirstTest@48075da3]" started-at="2026-04-02T19:07:24 IST" name="tearDown" finished-at="2026-04-02T19:07:24 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testBookingFlow status=SUCCESS method=BookingKolToBang.testBookingFlow()[pri:0, instance:Tests.BookingKolToBang@cb0755b] output={null}]]]>
+                <![CDATA[[TestResult name=firstBookingConfirmation status=SUCCESS method=BookingFirstTest.firstBookingConfirmation()[pri:0, instance:Tests.BookingFirstTest@48075da3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:Tests.BookingKolToBang@cb0755b]" started-at="2026-03-27T17:05:52 IST" name="tearDownReport" finished-at="2026-03-27T17:05:52 IST" duration-ms="361" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:Tests.BookingFirstTest@48075da3]" started-at="2026-04-02T19:07:25 IST" name="tearDownReport" finished-at="2026-04-02T19:07:29 IST" duration-ms="4688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
-      </class> <!-- Tests.BookingKolToBang -->
+      </class> <!-- Tests.BookingFirstTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
