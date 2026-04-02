@@ -1,10 +1,10 @@
-# 🚀 Automation Framework (Selenium + TestNG)
+# Automation Framework (Selenium + TestNG)
 
-## 📌 Overview
+# Overview
 
 This project is a UI automation framework built to automate real-world scenarios on Booking.com (flight/taxi flow).
 
-## 🛠 Tech Stack
+# Tech Stack
 
 * Java
 * Selenium WebDriver
@@ -12,7 +12,7 @@ This project is a UI automation framework built to automate real-world scenarios
 * Maven
 * Extent Reports
 
-## 🔥 Key Features
+# Key Features
 
 * End-to-end UI automation
 * Page Object Model (scalable structure)
@@ -20,14 +20,14 @@ This project is a UI automation framework built to automate real-world scenarios
 * Reusable BaseTest setup
 * Explicit waits & stable locators
 
-## 🧪 Test Scenario
+# Test Scenario
 
 * Navigate to Booking.com
 * Open Airport Taxi section
 * Scroll and interact with page elements
 * Validate navigation
 
-## ▶️ How to Run
+# How to Run
 
 ```bash
 mvn clean test
@@ -43,8 +43,7 @@ Generated under:
 
 ## 📷 Sample Report
 
-(Add screenshot here)
 
-## 👨‍💻 Author
+# Author
 
 Adipta Das
