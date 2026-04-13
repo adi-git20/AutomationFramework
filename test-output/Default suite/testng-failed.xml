@@ -3,17 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.BookingFirstTest">
+      <class name="Tests.ActionTest">
         <methods>
-          <include name="setup"/>
+          <include name="testMouseHover"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
           <include name="setupReport"/>
-          <include name="firstBookingConfirmation"/>
           <include name="setupTest"/>
           <include name="tearDownReport"/>
         </methods>
-      </class> <!-- Tests.BookingFirstTest -->
+      </class> <!-- Tests.ActionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
